@@ -1,0 +1,129 @@
+:root{
+
+
+/* Color fonts and verible setup */
+--c-primary:#975af9;
+--c-secondry:#46a7f8;
+--c-background:#e6e6e6;
+--c-dark:#2d2d2d;
+--c-black:#000000;
+  --font-base:"poppins";
+}
+body{
+
+  font-family:var(--font-base);
+  font-size: 16px;
+  line-height: 1.6;
+}
+h1 .h2 .h3 .h4 .h5 .h6 {
+  font-weight: 600;
+}
+p{
+  font-family: var(--font-base);
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+  color:var(--c-primary)
+
+}
+a:hover{
+  color: var(--c-secondry);
+}
+.section-padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.navbar-dark{
+  background-color: var(--c-black);
+}
+/*Button css setup*/
+
+
+
+/* Navbar css setup*/
+.navbar{
+
+  font-family: var(--font-base);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* Hero css setup*/
+.hero{
+  height: 100vh;
+  
+  
+}
+#Hero{
+  background-image: url(../img/home/Hero-img.jpg);
+  background-size: 100%;
+  margin-top: -55px;
+  
+
+  
+}
+.hero-text{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+
+/*Button css setup*/
+.btn{
+  font-weight: 600 !important;
+}
+.btn-primary{
+  background-color: var(--c-primary) !important;
+}
+.btn-primary:hover{
+  background-color: var(--c-secondry) !important;
+}
+.btn-light{
+
+  background-color: var(--c-background) !important;
+}
+.btn-light:hover{
+
+  background-color:aqua !important;
+}
+/*About Us css setup*/
+.brand-tittle{
+   font-size: 65px;
+   font-weight: 750;
+   font-family: var(--font-base);
+}
+.brand-p{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--font-base);
+}
+.brand-tittle-light{
+  font-size: 55px;
+   font-weight: 650;
+   font-family: var(--font-base);
+   color: var(--c-background);
+}
+.brand-p-2{
+  font-size: 20px;
+  font-family: var(--font-base);
+}
+
+/*Icon css setup*/
+.iconbox{
+
+  background: var(--c-background);
+  color: var(--c-primary);
+  width: 60px;
+  height: 65px;
+  align-items: center !important;
+  font-size: 35px;
+  flex: none;
+}
+
